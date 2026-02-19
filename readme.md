@@ -114,12 +114,17 @@ research-assistant-ai/
 
 │
 ├── templates/
+
 │   └── index.html
 │
 ├── main.py
+
 ├── requirements.txt
+
 ├── .env
+
 ├── .gitignore
+
 └── README.md
 
 🔐 Security
