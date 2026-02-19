@@ -80,30 +80,38 @@ python-dotenv (environment variables)
 
 🛠️ Installation Guide
 1️⃣ Clone Repository
+
 git clone https://github.com/your-username/research-assistant-ai.git
 cd research-assistant-ai
 
 2️⃣ Create Virtual Environment
+
 py -m venv venv
 venv\Scripts\activate
 
 3️⃣ Install Dependencies
+
 pip install flask python-dotenv requests pdfplumber markdown
 
 4️⃣ Create .env File
+
 GOOGLE_API_KEY=your_google_api_key_here
 
 5️⃣ Run Application
+
 python main.py
 
 
 Open browser:
+
 
 http://127.0.0.1:5000
 
 
 📂 Project Structure
 research-assistant-ai/
+
+
 │
 ├── templates/
 │   └── index.html
