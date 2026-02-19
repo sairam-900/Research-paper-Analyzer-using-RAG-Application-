@@ -116,6 +116,7 @@ research-assistant-ai/
 ├── templates/
 
 │   └── index.html
+
 │
 ├── main.py
 
@@ -146,6 +147,10 @@ Academic reviewers
 Literature review automation
 
 Research summarization
+
+
+
+
 
 
 
