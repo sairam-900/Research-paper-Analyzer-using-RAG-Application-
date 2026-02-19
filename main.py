@@ -4,10 +4,14 @@ import requests
 import pdfplumber
 import markdown  # ✅ ADDED
 from flask import Flask, request, jsonify, render_template
+from flask_cors import CORS
 from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
+
+app = Flask(__name__)
+CORS(app)  # ✅ Enable CORS
 
 app = Flask(__name__)
 # -------- Secure Configuration --------
