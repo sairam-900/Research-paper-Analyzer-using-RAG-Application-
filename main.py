@@ -13,7 +13,6 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)  # ✅ Enable CORS
 
-app = Flask(__name__)
 # -------- Secure Configuration --------
 GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY")
 
